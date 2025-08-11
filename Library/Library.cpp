@@ -11,7 +11,6 @@ const int LIBRARY_SIZE = 5;
 
 // Function prototypes
 void displayMenu();
-// The 'const' is removed from the first parameter to match the argument type in main()
 void seeAllBooks(Book* library[], int size);
 void borrowBook(Book* library[], int size);
 void returnBook(Book* library[], int size);
